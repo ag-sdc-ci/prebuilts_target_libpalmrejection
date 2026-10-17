@@ -1,0 +1,13 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libpalmrejection.a-x86_64-v2.so",
+		    "libdummy_binary_libpalmrejection.a.so",
+		    "libdummy_ext_libpalmrejection-x86_64-v2.so",
+		    "libdummy_ext_libpalmrejection.so",
+		    "libdummy_headers_ext_libpalmrejection-x86_64-v2.so",
+		    "libdummy_headers_ext_libpalmrejection.so",
+		    "libdummy_shared_libpalmrejection-x86_64-v2.so",
+		    "libdummy_shared_libpalmrejection.so"
+	],
+	"visible": true
+}

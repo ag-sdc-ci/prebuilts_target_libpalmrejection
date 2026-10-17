@@ -1,0 +1,30 @@
+// Auto-generated prebuilt APEX Blueprint for external/libpalmrejection
+// Staged from Extractive APEX package: ext-libpalmrejection (org.blisslabs.ag.ext.libpalmrejection)
+
+package {
+    default_applicable_licenses: ["external_libpalmrejection_license"],
+}
+
+license {
+    name: "external_libpalmrejection_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-BSD",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+cc_prebuilt_library_static {
+    name: "libpalmrejection",
+    srcs: ["lib/libpalmrejection.a"],
+    export_include_dirs: ["include", "."],
+    shared_libs: [
+        "libchrome",
+    ],
+    visibility: [
+        "//frameworks/native/services/inputflinger:__subpackages__",
+        "//visibility:public",
+    ],
+}
